@@ -44,6 +44,7 @@ button {
   --primaryColor: black;
   --secondColor: white;
   --textColor: rgb(224, 216, 216);
+  --gradientColor: rgb(48, 47, 47);
 }
 
 .main-btn {

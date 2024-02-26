@@ -1,7 +1,7 @@
 #customer {
     background-image: linear-gradient(to bottom,
             var(--primaryColor),
-            rgb(246, 244, 244));
+            var(--gradientColor));
     padding-top: 100px;
     border-radius: 0 0 50% 50%;
 }
