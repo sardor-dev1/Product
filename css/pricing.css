@@ -1,0 +1,40 @@
+.pricing-wrapp {
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+  padding-top: 100px;
+}
+
+
+.pricing__abouts {
+  width: 100%;
+  max-width: 480px;
+}
+
+.pricing__tittles {
+  padding: 8px 0 20px;
+}
+
+.pricing__min-tittles {
+  padding: 25px 0 10px;
+}
+
+.pricing__collaborative {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+
+.pricing__images {
+    width: 100%;
+    max-width: 540px;
+}
+
+@media (max-width:1220px) {
+    .pricing__sections {
+        flex-direction: column-reverse;
+        align-items: start;
+
+        gap: 50px;
+    }
+}

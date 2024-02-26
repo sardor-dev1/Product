@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Poppins;
+}
+
+*,
+*::after*::before {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+@media (min-width: 1440px) {
+  .container {
+    width: 1440px;
+  }
+}
+
+.df {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.light {
+  --primaryColor: black;
+  --secondColor: white;
+  --textColor: rgb(224, 216, 216);
+}
+
+.main-btn {
+  padding: 8px 20px;
+  border: 2px solid transparent;
+  background-color: var(--hoverColor);
+  color: white;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  transition: 0.3s;
+}
+
+.main-btn:hover {
+  border-color: var(--hoverColor);
+  color: var(--secondColor);
+  background-color: transparent;
+}
+
+.tittle-h1 {
+  font-size: 64px;
+  font-weight: 600;
+}
+
+.tittle-h2 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.text-style {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--textColor);
+}
+
+.min-text-style {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--textColor);
+}
+
+#bactop {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  border: 4px solid var(--secondColor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  color: var(--secondColor);
+  position: fixed;
+  bottom: 35px;
+  right: 20px;
+  display: none;
+}
+
+.show-bactop {
+  display: flex !important;
+}
+
+@media (max-width: 800px) {
+  .main-btn {
+    padding: 6px 15px;
+  }
+}
+
+@media (max-width: 650px) {
+  .main-btn {
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  .tittle-h1 {
+    font-size: 36px;
+  }
+
+  .tittle-h2 {
+    font-size: 34px;
+  }
+
+  .text-style {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 500px) {
+  .main-btn {
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  .tittle-h1 {
+    font-size: 32px;
+  }
+
+    .tittle-h2 {
+    font-size: 28px;
+    font-weight: 600;
+  }
+}
+
+main {
+  background-color: var(--primaryColor);
+  color: var(--secondColor);
+}
